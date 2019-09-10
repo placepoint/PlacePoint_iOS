@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="UBUNTU-MEDIUM.TTF">
+            <string>Ubuntu-Medium</string>
+        </array>
+        <array key="UBUNTU-REGULAR_0.TTF">
+            <string>Ubuntu-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="PopUpSubScriptionPlan" customModule="PlacePoint" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="628"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dbC-P0-xYv">
+                    <rect key="frame" x="7" y="135" width="362" height="338"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xua-WS-kbk">
+                            <rect key="frame" x="-1" y="-1" width="363" height="66"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Choose Subscription Plan" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mvP-AM-uY9">
+                                    <rect key="frame" x="17" y="15" width="329" height="38"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="Ubuntu-Medium" family="Ubuntu" pointSize="20"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" red="0.1843137255" green="0.23137254900000001" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </view>
+                        <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F3K-mc-ltO">
+                            <rect key="frame" x="8" y="94" width="346" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <connections>
+                                <action selector="btnChoosePlan:" destination="iN0-l3-epB" eventType="touchUpInside" id="FlV-7f-7wB"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="1" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PKQ-HC-5XQ">
+                            <rect key="frame" x="8" y="150" width="346" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <connections>
+                                <action selector="btnChoosePlan:" destination="iN0-l3-epB" eventType="touchUpInside" id="zsI-HG-6sY"/>
+                            </connections>
+                        </button>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="RadiBtn_off" translatesAutoresizingMaskIntoConstraints="NO" id="XNf-9p-ouZ">
+                            <rect key="frame" x="21" y="154" width="20" height="20"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <button opaque="NO" tag="2" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rkW-wm-9nY">
+                            <rect key="frame" x="8" y="206" width="346" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <connections>
+                                <action selector="btnChoosePlan:" destination="iN0-l3-epB" eventType="touchUpInside" id="I2I-Wa-ETs"/>
+                            </connections>
+                        </button>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="RadiBtn_off" translatesAutoresizingMaskIntoConstraints="NO" id="HnY-wv-NqQ">
+                            <rect key="frame" x="21" y="209" width="20" height="20"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Free Package" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4k1-Hd-uwn">
+                            <rect key="frame" x="81" y="95" width="154" height="27"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="Ubuntu-Medium" family="Ubuntu" pointSize="17"/>
+                            <color key="textColor" red="0.1843137255" green="0.23137254900000001" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="€ 0/year" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iNi-bu-EJw">
+                            <rect key="frame" x="253" y="95" width="89" height="27"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="Ubuntu-Regular" family="Ubuntu" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="€ 150/year" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZJz-cV-n2y">
+                            <rect key="frame" x="253" y="149" width="89" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="Ubuntu-Regular" family="Ubuntu" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="€ 300/year" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6GW-Bu-E6k">
+                            <rect key="frame" x="253" y="206" width="89" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="Ubuntu-Regular" family="Ubuntu" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Standard Package" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IIL-hY-oh4">
+                            <rect key="frame" x="81" y="149" width="153" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="Ubuntu-Medium" family="Ubuntu" pointSize="17"/>
+                            <color key="textColor" red="0.1843137255" green="0.23137254900000001" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Premium Package" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WuV-MT-Mk8">
+                            <rect key="frame" x="81" y="206" width="156" height="29"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="Ubuntu-Medium" family="Ubuntu" pointSize="17"/>
+                            <color key="textColor" red="0.1843137255" green="0.23137254900000001" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Qa-By-Yeq">
+                            <rect key="frame" x="308" y="287" width="46" height="40"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="Ubuntu-Medium" family="Ubuntu" pointSize="20"/>
+                            <state key="normal" title="OK">
+                                <color key="titleColor" red="0.1843137255" green="0.23137254900000001" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="btnOk:" destination="iN0-l3-epB" eventType="touchUpInside" id="e3b-ZZ-Hhj"/>
+                            </connections>
+                        </button>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="RadiBtn_off" translatesAutoresizingMaskIntoConstraints="NO" id="2kv-La-JgA">
+                            <rect key="frame" x="21" y="99" width="20" height="20"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Admin" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MiT-D6-i1q">
+                            <rect key="frame" x="81" y="260" width="156" height="29"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="Ubuntu-Medium" family="Ubuntu" pointSize="17"/>
+                            <color key="textColor" red="0.1843137255" green="0.23137254900000001" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="RadiBtn_off" translatesAutoresizingMaskIntoConstraints="NO" id="eEx-QF-JGL">
+                            <rect key="frame" x="21" y="265" width="20" height="20"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <button opaque="NO" tag="3" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2ST-tk-8Xt">
+                            <rect key="frame" x="8" y="262" width="346" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <connections>
+                                <action selector="btnChoosePlan:" destination="iN0-l3-epB" eventType="touchUpInside" id="5P2-fF-9O6"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.85098039219999999" green="0.85098039219999999" blue="0.85098039219999999" alpha="0.21220290492957747" colorSpace="calibratedRGB"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="btnFee" destination="F3K-mc-ltO" id="oWa-7o-u5O"/>
+                <outlet property="btnPrem" destination="rkW-wm-9nY" id="2rm-xy-1bh"/>
+                <outlet property="btnStd" destination="PKQ-HC-5XQ" id="tZq-sk-geA"/>
+                <outlet property="imgAdmin" destination="eEx-QF-JGL" id="5Yc-b4-Beu"/>
+                <outlet property="imgFree" destination="2kv-La-JgA" id="OA1-qN-KqU"/>
+                <outlet property="imgPrem" destination="HnY-wv-NqQ" id="wtn-Ez-JX3"/>
+                <outlet property="imgStd" destination="XNf-9p-ouZ" id="AWP-Xx-e0z"/>
+            </connections>
+            <point key="canvasLocation" x="32.5" y="84"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="RadiBtn_off" width="20" height="20"/>
+    </resources>
+</document>

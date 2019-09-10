@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="UBUNTU-MEDIUM.TTF">
+            <string>Ubuntu-Medium</string>
+        </array>
+        <array key="UBUNTU-REGULAR_0.TTF">
+            <string>Ubuntu-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BuisnessAddressVC" customModule="PlacePoint" customModuleProvider="target">
+            <connections>
+                <outlet property="mapView" destination="WrT-gq-3qF" id="SFL-U4-A3b"/>
+                <outlet property="txtFieldAddressLine1" destination="kbW-K9-rfE" id="A7t-bf-evX"/>
+                <outlet property="txtFieldAddressLine2" destination="sI2-cV-ci0" id="e9u-TM-u4c"/>
+                <outlet property="txtFieldSelectAddress" destination="01B-2J-UfI" id="fTX-c1-Apg"/>
+                <outlet property="view" destination="iN0-l3-epB" id="j2F-rU-HW2"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="466" height="672"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Kur-WG-Kka">
+                    <rect key="frame" x="0.0" y="0.0" width="466" height="334"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WrT-gq-3qF">
+                            <rect key="frame" x="0.0" y="0.0" width="466" height="334"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        </mapView>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9eJ-DH-8Yb">
+                            <rect key="frame" x="20" y="17" width="426" height="49"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BbO-hH-YnB">
+                                    <rect key="frame" x="15" y="19" width="20" height="17"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" title="'" image="search"/>
+                                </button>
+                                <button opaque="NO" contentMode="scaleAspectFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="siV-5n-kG4">
+                                    <rect key="frame" x="389" y="17" width="20" height="16"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" title="'" image="closeIcon"/>
+                                    <connections>
+                                        <action selector="btnCloseAction:" destination="-1" eventType="touchUpInside" id="jFG-1u-B2n"/>
+                                    </connections>
+                                </button>
+                                <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter Address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="01B-2J-UfI">
+                                    <rect key="frame" x="58" y="10" width="310" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                    <color key="textColor" red="0.31113182109999998" green="0.31113182109999998" blue="0.31113182109999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <fontDescription key="fontDescription" name="Ubuntu-Regular" family="Ubuntu" pointSize="17"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                    <connections>
+                                        <outlet property="delegate" destination="iN0-l3-epB" id="PUU-IY-iCO"/>
+                                    </connections>
+                                </textField>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="E4i-zn-xF3">
+                    <rect key="frame" x="0.0" y="333" width="466" height="339"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Address :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qpP-fi-3Be">
+                            <rect key="frame" x="25" y="18" width="416" height="33"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="Ubuntu-Medium" family="Ubuntu" pointSize="18"/>
+                            <color key="textColor" red="0.14117647059999999" green="0.17254901959999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="p86-Iu-x7G">
+                            <rect key="frame" x="25" y="51" width="416" height="1"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sIa-Xt-x6c">
+                            <rect key="frame" x="25" y="97" width="416" height="70"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <textField opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Street Address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kbW-K9-rfE">
+                                    <rect key="frame" x="1" y="0.0" width="407" height="70"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                    <color key="textColor" red="0.22386579949999999" green="0.22386579949999999" blue="0.22386579949999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <fontDescription key="fontDescription" name="Ubuntu-Regular" family="Ubuntu" pointSize="17"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                    <connections>
+                                        <outlet property="delegate" destination="iN0-l3-epB" id="qVb-5U-HON"/>
+                                    </connections>
+                                </textField>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nmq-se-xPM">
+                            <rect key="frame" x="25" y="188" width="416" height="70"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <textField opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Locality Address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sI2-cV-ci0">
+                                    <rect key="frame" x="0.0" y="0.0" width="407" height="70"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                    <color key="textColor" red="0.22386579949999999" green="0.22386579949999999" blue="0.22386579949999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <fontDescription key="fontDescription" name="Ubuntu-Regular" family="Ubuntu" pointSize="17"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                    <connections>
+                                        <outlet property="delegate" destination="iN0-l3-epB" id="W4S-Yf-snV"/>
+                                    </connections>
+                                </textField>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="-389" y="-58"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="closeIcon" width="30" height="30"/>
+        <image name="search" width="40" height="40"/>
+    </resources>
+</document>

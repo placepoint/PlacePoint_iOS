@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="PickerViewList" customModule="PlacePoint" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="398" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PJN-ek-Nhx">
+                    <rect key="frame" x="5" y="420" width="389" height="243"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cRR-wS-gAW">
+                            <rect key="frame" x="0.0" y="-1" width="388" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.14117647058823529" green="0.17254901960784313" blue="0.27450980392156865" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <items>
+                                <barButtonItem title="  Cancel" width="60" id="pCR-ZU-sLr" userLabel="Cancel">
+                                    <connections>
+                                        <action selector="btnCancelAction:" destination="iN0-l3-epB" id="ZkQ-Xb-cuc"/>
+                                    </connections>
+                                </barButtonItem>
+                                <barButtonItem style="plain" systemItem="flexibleSpace" id="tAk-K5-czR"/>
+                                <barButtonItem width="60" style="done" systemItem="done" id="M3X-nV-55h">
+                                    <connections>
+                                        <action selector="btnDoneAction:" destination="iN0-l3-epB" id="7My-mW-WIg"/>
+                                    </connections>
+                                </barButtonItem>
+                            </items>
+                        </toolbar>
+                        <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="CZT-95-VUf">
+                            <rect key="frame" x="0.0" y="38" width="388" height="204"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <date key="date" timeIntervalSinceReferenceDate="551614803.07291198">
+                                <!--2018-06-25 10:20:03 +0000-->
+                            </date>
+                            <date key="minimumDate" timeIntervalSinceReferenceDate="-978267600">
+                                <!--1970-01-01 11:00:00 +0000-->
+                            </date>
+                            <date key="maximumDate" timeIntervalSinceReferenceDate="1167562800">
+                                <!--2037-12-31 11:00:00 +0000-->
+                            </date>
+                            <connections>
+                                <action selector="pickerDateChanged:" destination="iN0-l3-epB" eventType="valueChanged" id="BZd-DK-h7p"/>
+                            </connections>
+                        </datePicker>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.14900267124176025" green="0.14903038740158081" blue="0.14899668097496033" alpha="0.39719960387323944" colorSpace="custom" customColorSpace="sRGB"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="datePicker" destination="CZT-95-VUf" id="kBW-Ii-U8R"/>
+            </connections>
+            <point key="canvasLocation" x="26" y="51.5"/>
+        </view>
+    </objects>
+</document>

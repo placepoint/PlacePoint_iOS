@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>643287937740-c59ugmqdsicqu6e1fuuiq1mo0mrt3t2e.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.643287937740-c59ugmqdsicqu6e1fuuiq1mo0mrt3t2e</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAbHaB-sguPkxonvjRT_qE3-366HZVl1SU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>643287937740</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.TaskBlast.PlacePoint</string>
+	<key>PROJECT_ID</key>
+	<string>placepoint-android</string>
+	<key>STORAGE_BUCKET</key>
+	<string>placepoint-android.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:643287937740:ios:5d7c8d2f11acff80</string>
+	<key>DATABASE_URL</key>
+	<string>https://placepoint-android.firebaseio.com</string>
+</dict>
+</plist>

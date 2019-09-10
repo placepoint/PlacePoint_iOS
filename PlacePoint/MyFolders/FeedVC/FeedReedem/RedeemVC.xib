@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="UBUNTU-MEDIUM.TTF">
+            <string>Ubuntu-Medium</string>
+        </array>
+        <array key="UBUNTU-REGULAR_0.TTF">
+            <string>Ubuntu-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RedeemVC" customModule="PlacePoint" customModuleProvider="target">
+            <connections>
+                <outlet property="lblNoPostFound" destination="8Rv-VX-c0I" id="Otc-bO-tM2"/>
+                <outlet property="searchBarRedeemed" destination="rSf-k0-ubg" id="woB-2S-F27"/>
+                <outlet property="tblViewRedem" destination="jRf-vM-lLX" id="aoZ-qM-ylq"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rSf-k0-ubg">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="56"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <scopeButtonTitles>
+                        <string>Title</string>
+                        <string>Title</string>
+                    </scopeButtonTitles>
+                </searchBar>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="grouped" separatorStyle="none" allowsSelection="NO" rowHeight="100" estimatedRowHeight="-1" sectionHeaderHeight="1" sectionFooterHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="jRf-vM-lLX">
+                    <rect key="frame" x="0.0" y="56" width="375" height="525"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.76862745098039209" green="0.76470588235294112" blue="0.78823529411764703" alpha="1" colorSpace="calibratedRGB"/>
+                </tableView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="No Posts Found!!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Rv-VX-c0I">
+                    <rect key="frame" x="42" y="162" width="291" height="343"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" name="Ubuntu-Medium" family="Ubuntu" pointSize="21"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sO0-zc-8Gs">
+                    <rect key="frame" x="10" y="594" width="355" height="60"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.18823529410000001" green="0.2470588235" blue="0.34509803919999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" name="Ubuntu-Regular" family="Ubuntu" pointSize="16"/>
+                    <state key="normal" title="Redeem">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="btnRedeemedAction:" destination="-1" eventType="touchUpInside" id="DmQ-po-c4h"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.76862745098039209" green="0.76470588235294112" blue="0.78823529411764703" alpha="1" colorSpace="calibratedRGB"/>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="58.399999999999999" y="11.244377811094454"/>
+        </view>
+    </objects>
+</document>

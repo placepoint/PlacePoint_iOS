@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PrivacyPolicyVC" customModule="PlacePoint" customModuleProvider="target">
+            <connections>
+                <outlet property="loaderForWebView" destination="nNU-uX-kOV" id="rm0-Tn-FuE"/>
+                <outlet property="myWebBrowserOutlet" destination="VhG-xK-PMe" id="9PO-cK-wr9"/>
+                <outlet property="view" destination="iN0-l3-epB" id="fWZ-xb-NMG"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <webView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VhG-xK-PMe">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <gestureRecognizers/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="9zb-e5-DcW"/>
+                    </connections>
+                </webView>
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="nNU-uX-kOV">
+                    <rect key="frame" x="177" y="343" width="20" height="20"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="color" red="0.21545167639999999" green="0.61682646649999995" blue="0.92549019610000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </activityIndicatorView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="32.5" y="58.5"/>
+        </view>
+    </objects>
+</document>

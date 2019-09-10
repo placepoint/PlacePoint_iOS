@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="UBUNTU-MEDIUM.TTF">
+            <string>Ubuntu-Medium</string>
+        </array>
+        <array key="UBUNTU-REGULAR_0.TTF">
+            <string>Ubuntu-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="HGj-cz-QiD" customClass="AboutPubCell" customModule="PlacePoint" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="369" height="448"/>
+            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="nPS-iW-A9P">
+                    <rect key="frame" x="0.0" y="0.0" width="369" height="448"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fYM-5H-1Ke">
+                            <rect key="frame" x="0.0" y="0.0" width="369" height="225"/>
+                            <subviews>
+                                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="cff-lc-Gzw">
+                                    <rect key="frame" x="0.0" y="0.0" width="369" height="181"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="CD6-vd-kOO">
+                                        <size key="itemSize" width="353" height="268"/>
+                                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    </collectionViewFlowLayout>
+                                </collectionView>
+                                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QLp-5Q-kl5">
+                                    <rect key="frame" x="267" y="6" width="92" height="45"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="OPEN NOW" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mt6-Vq-ayW">
+                                            <rect key="frame" x="0.0" y="11" width="92" height="18"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <fontDescription key="fontDescription" name="Ubuntu-Regular" family="Ubuntu" pointSize="14"/>
+                                            <nil key="highlightedColor"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                    <integer key="value" value="10"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="boolean" keyPath="clipsToBounds" value="YES"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </label>
+                                        <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9tq-pg-fpM">
+                                            <rect key="frame" x="1" y="28" width="89" height="15"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" name="Ubuntu-Regular" family="Ubuntu" pointSize="9"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" red="0.33333333329999998" green="0.79215686269999996" blue="0.46274509800000002" alpha="0.94633032569999997" colorSpace="custom" customColorSpace="sRGB"/>
+                                </view>
+                                <pageControl hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="fLl-vA-hSh">
+                                    <rect key="frame" x="165" y="186" width="39" height="37"/>
+                                    <color key="pageIndicatorTintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="currentPageIndicatorTintColor" red="1" green="0.54674487419999995" blue="0.1787253463" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </pageControl>
+                                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cn7-Hf-ugR">
+                                    <rect key="frame" x="0.0" y="145" width="369" height="35"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j19-9y-Rwj">
+                                            <rect key="frame" x="329" y="3" width="30" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                            <state key="normal" image="img_nav"/>
+                                            <connections>
+                                                <action selector="btnNavigation:" destination="HGj-cz-QiD" eventType="touchUpInside" id="H0v-vs-4a3"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9bc-7o-aky">
+                                            <rect key="frame" x="289" y="3" width="30" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                            <state key="normal" image="img_taxi"/>
+                                            <connections>
+                                                <action selector="btnTaxi:" destination="HGj-cz-QiD" eventType="touchUpInside" id="d6z-R5-CQv"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B47-KM-78Z">
+                                            <rect key="frame" x="249" y="3" width="30" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                            <state key="normal" image="img_Phone"/>
+                                            <connections>
+                                                <action selector="btnCallMe:" destination="HGj-cz-QiD" eventType="touchUpInside" id="vfj-Pf-OpS"/>
+                                            </connections>
+                                        </button>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Bar Name 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tyn-RC-8uM">
+                                            <rect key="frame" x="8" y="9" width="185" height="16"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" name="Ubuntu-Medium" family="Ubuntu" pointSize="17"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" red="0.090196078430000007" green="0.08235294118" blue="0.086274509799999996" alpha="0.58984375" colorSpace="custom" customColorSpace="sRGB"/>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="225" id="9TQ-2N-Av1"/>
+                                <constraint firstItem="fLl-vA-hSh" firstAttribute="top" secondItem="cff-lc-Gzw" secondAttribute="bottom" constant="5" id="DMv-QL-GlU"/>
+                                <constraint firstItem="cff-lc-Gzw" firstAttribute="top" secondItem="fYM-5H-1Ke" secondAttribute="top" id="K2a-PJ-rkB"/>
+                                <constraint firstItem="fLl-vA-hSh" firstAttribute="centerX" secondItem="fYM-5H-1Ke" secondAttribute="centerX" id="TLE-5m-14C"/>
+                                <constraint firstAttribute="trailing" secondItem="cff-lc-Gzw" secondAttribute="trailing" id="Tj3-j1-bDT"/>
+                                <constraint firstAttribute="bottom" secondItem="fLl-vA-hSh" secondAttribute="bottom" constant="2" id="dC1-30-h5N"/>
+                                <constraint firstItem="cff-lc-Gzw" firstAttribute="leading" secondItem="fYM-5H-1Ke" secondAttribute="leading" id="xQm-mr-oFv"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ahf-Sf-q2N">
+                            <rect key="frame" x="0.0" y="225" width="369" height="223"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wqB-4U-60u">
+                                    <rect key="frame" x="20" y="10" width="329" height="20.5"/>
+                                    <fontDescription key="fontDescription" name="Ubuntu-Medium" family="Ubuntu" pointSize="18"/>
+                                    <color key="textColor" red="0.14117647059999999" green="0.17254901959999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aRV-Cr-fS6">
+                                    <rect key="frame" x="20" y="60.5" width="3" height="147.5"/>
+                                    <color key="backgroundColor" red="0.14117647059999999" green="0.17254901959999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="3" id="CwK-4y-E86"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eYn-lK-m2R">
+                                    <rect key="frame" x="20" y="38.5" width="329" height="1"/>
+                                    <color key="backgroundColor" red="0.71764705880000002" green="0.72156862749999995" blue="0.72156862749999995" alpha="0.57384417809999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="1" id="F15-ce-DpR"/>
+                                    </constraints>
+                                </view>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pbo-WJ-vNV">
+                                    <rect key="frame" x="33" y="60.5" width="316" height="147.5"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="20" id="iE0-Gv-Txk"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="Ubuntu-Regular" family="Ubuntu" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="Pbo-WJ-vNV" secondAttribute="bottom" constant="15" id="8jd-vR-ldn"/>
+                                <constraint firstItem="Pbo-WJ-vNV" firstAttribute="top" secondItem="eYn-lK-m2R" secondAttribute="bottom" constant="21" id="9rK-yq-7qG"/>
+                                <constraint firstItem="eYn-lK-m2R" firstAttribute="top" secondItem="wqB-4U-60u" secondAttribute="bottom" constant="8" id="O0i-hC-IwL"/>
+                                <constraint firstAttribute="trailing" secondItem="wqB-4U-60u" secondAttribute="trailing" constant="20" id="Obl-2c-pTy"/>
+                                <constraint firstItem="Pbo-WJ-vNV" firstAttribute="leading" secondItem="aRV-Cr-fS6" secondAttribute="trailing" constant="10" id="Suh-Qz-jGw"/>
+                                <constraint firstAttribute="trailing" secondItem="eYn-lK-m2R" secondAttribute="trailing" constant="20" id="TDy-T5-TM4"/>
+                                <constraint firstItem="aRV-Cr-fS6" firstAttribute="leading" secondItem="ahf-Sf-q2N" secondAttribute="leading" constant="20" id="YRQ-Bf-t2g"/>
+                                <constraint firstItem="aRV-Cr-fS6" firstAttribute="top" secondItem="eYn-lK-m2R" secondAttribute="bottom" constant="21" id="Zfq-tQ-k5E"/>
+                                <constraint firstItem="eYn-lK-m2R" firstAttribute="leading" secondItem="ahf-Sf-q2N" secondAttribute="leading" constant="20" id="br5-Gr-e5E"/>
+                                <constraint firstItem="aRV-Cr-fS6" firstAttribute="height" secondItem="Pbo-WJ-vNV" secondAttribute="height" id="cWP-yB-gTg"/>
+                                <constraint firstItem="wqB-4U-60u" firstAttribute="leading" secondItem="ahf-Sf-q2N" secondAttribute="leading" constant="20" id="ck8-Cg-1HB"/>
+                                <constraint firstAttribute="trailing" secondItem="Pbo-WJ-vNV" secondAttribute="trailing" constant="20" id="eeL-XG-yjr"/>
+                                <constraint firstItem="wqB-4U-60u" firstAttribute="top" secondItem="ahf-Sf-q2N" secondAttribute="top" constant="10" id="fdr-iY-Xkn"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="ahf-Sf-q2N" secondAttribute="trailing" id="Q4y-cF-YIK"/>
+                        <constraint firstItem="ahf-Sf-q2N" firstAttribute="top" secondItem="fYM-5H-1Ke" secondAttribute="bottom" id="WE3-XZ-Te8"/>
+                        <constraint firstAttribute="bottom" secondItem="ahf-Sf-q2N" secondAttribute="bottom" id="gFO-Wg-vf2"/>
+                        <constraint firstItem="ahf-Sf-q2N" firstAttribute="leading" secondItem="nPS-iW-A9P" secondAttribute="leading" id="j94-NX-ube"/>
+                    </constraints>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="nPS-iW-A9P" firstAttribute="top" secondItem="s42-hu-niN" secondAttribute="top" id="12g-NI-puA"/>
+                <constraint firstAttribute="bottom" secondItem="nPS-iW-A9P" secondAttribute="bottom" id="1jw-dT-B0w"/>
+                <constraint firstItem="nPS-iW-A9P" firstAttribute="leading" secondItem="s42-hu-niN" secondAttribute="leading" id="4JA-CY-AL3"/>
+                <constraint firstItem="nPS-iW-A9P" firstAttribute="trailing" secondItem="s42-hu-niN" secondAttribute="trailing" id="sHV-xI-kuS"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="s42-hu-niN"/>
+            <connections>
+                <outlet property="btnCall" destination="B47-KM-78Z" id="cSK-wO-yu7"/>
+                <outlet property="btnNavigation" destination="j19-9y-Rwj" id="3Sn-qy-bo4"/>
+                <outlet property="btnTaxi" destination="9bc-7o-aky" id="y43-Lx-KgL"/>
+                <outlet property="collectionImages" destination="cff-lc-Gzw" id="PlC-Oj-71O"/>
+                <outlet property="lblAbout" destination="wqB-4U-60u" id="b3R-Ib-3Ud"/>
+                <outlet property="lblDetails" destination="Pbo-WJ-vNV" id="DNV-yo-9mh"/>
+                <outlet property="lblDistance" destination="Tyn-RC-8uM" id="OZp-DQ-YQS"/>
+                <outlet property="lblOpenNoW" destination="mt6-Vq-ayW" id="GgI-6x-23P"/>
+                <outlet property="lblOpensAt" destination="9tq-pg-fpM" id="K0a-l5-8f8"/>
+                <outlet property="pageControl" destination="fLl-vA-hSh" id="Fd2-oA-Lqr"/>
+                <outlet property="vwDescription" destination="ahf-Sf-q2N" id="7bo-XO-Wv3"/>
+                <outlet property="vwOpenNow" destination="QLp-5Q-kl5" id="heh-kw-oGm"/>
+            </connections>
+            <point key="canvasLocation" x="-22.5" y="-67"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="img_Phone" width="40" height="40"/>
+        <image name="img_nav" width="40" height="40"/>
+        <image name="img_taxi" width="40" height="40"/>
+    </resources>
+</document>

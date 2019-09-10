@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ImageCropperView" customModule="PlacePoint" customModuleProvider="target">
+            <connections>
+                <outlet property="collectionImages" destination="dgh-7X-GOb" id="jjt-Hw-duh"/>
+                <outlet property="scrollContainerView" destination="xfe-PW-8Wh" id="xXZ-yv-nN6"/>
+                <outlet property="scrollView" destination="Swv-CE-aWv" id="IcF-Xo-5B1"/>
+                <outlet property="view" destination="iN0-l3-epB" id="i2j-va-R26"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K4Y-li-FRQ">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cqA-oc-I3x">
+                            <rect key="frame" x="257" y="30" width="98" height="34"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="98" id="wSU-3b-fiL"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                            <state key="normal" title="Save"/>
+                            <connections>
+                                <action selector="btnSave:" destination="-1" eventType="touchUpInside" id="ftf-hM-Z64"/>
+                            </connections>
+                        </button>
+                        <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xfe-PW-8Wh">
+                            <rect key="frame" x="20" y="89" width="335" height="365"/>
+                            <subviews>
+                                <scrollView multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" alwaysBounceHorizontal="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" maximumZoomScale="5" translatesAutoresizingMaskIntoConstraints="NO" id="Swv-CE-aWv" customClass="FAScrollView" customModule="PlacePoint" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="335" height="365"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </scrollView>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="Swv-CE-aWv" firstAttribute="top" secondItem="xfe-PW-8Wh" secondAttribute="top" id="34c-gG-Ggf"/>
+                                <constraint firstAttribute="trailing" secondItem="Swv-CE-aWv" secondAttribute="trailing" id="gKA-DH-lIJ"/>
+                                <constraint firstAttribute="height" constant="365" id="iXH-Uo-l82"/>
+                                <constraint firstAttribute="bottom" secondItem="Swv-CE-aWv" secondAttribute="bottom" id="iv2-YK-c5j"/>
+                                <constraint firstItem="Swv-CE-aWv" firstAttribute="leading" secondItem="xfe-PW-8Wh" secondAttribute="leading" id="t7q-i4-S34"/>
+                            </constraints>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2hc-oW-vh0">
+                            <rect key="frame" x="20" y="30" width="98" height="34"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="98" id="hB6-XR-V8j"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                            <state key="normal" title="Cancel"/>
+                            <connections>
+                                <action selector="btnCancel:" destination="-1" eventType="touchUpInside" id="PKa-sp-BFr"/>
+                            </connections>
+                        </button>
+                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="dgh-7X-GOb">
+                            <rect key="frame" x="0.0" y="484" width="375" height="99"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="13S-zI-xmr">
+                                <size key="itemSize" width="120" height="120"/>
+                                <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            </collectionViewFlowLayout>
+                            <cells/>
+                        </collectionView>
+                    </subviews>
+                    <color key="backgroundColor" red="0.98823529409999999" green="0.98823529409999999" blue="0.98823529409999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="cqA-oc-I3x" secondAttribute="trailing" constant="20" id="2Rp-2s-jcP"/>
+                        <constraint firstAttribute="bottom" secondItem="dgh-7X-GOb" secondAttribute="bottom" constant="84" id="EoF-SC-Do3"/>
+                        <constraint firstItem="2hc-oW-vh0" firstAttribute="leading" secondItem="K4Y-li-FRQ" secondAttribute="leading" constant="20" id="Pkw-pn-g9R"/>
+                        <constraint firstItem="2hc-oW-vh0" firstAttribute="top" secondItem="K4Y-li-FRQ" secondAttribute="top" constant="30" id="SVk-YA-5IG"/>
+                        <constraint firstItem="xfe-PW-8Wh" firstAttribute="leading" secondItem="K4Y-li-FRQ" secondAttribute="leading" constant="20" id="Va1-Tz-Bn9"/>
+                        <constraint firstAttribute="trailing" secondItem="dgh-7X-GOb" secondAttribute="trailing" id="b9H-7Q-dZJ"/>
+                        <constraint firstAttribute="trailing" secondItem="xfe-PW-8Wh" secondAttribute="trailing" constant="20" id="bPs-SU-Ggz"/>
+                        <constraint firstItem="xfe-PW-8Wh" firstAttribute="top" secondItem="cqA-oc-I3x" secondAttribute="bottom" constant="25" id="cuN-pr-h9m"/>
+                        <constraint firstItem="cqA-oc-I3x" firstAttribute="top" secondItem="K4Y-li-FRQ" secondAttribute="top" constant="30" id="drx-nX-BNA"/>
+                        <constraint firstItem="dgh-7X-GOb" firstAttribute="leading" secondItem="K4Y-li-FRQ" secondAttribute="leading" id="vSV-DE-eaU"/>
+                        <constraint firstItem="dgh-7X-GOb" firstAttribute="top" secondItem="xfe-PW-8Wh" secondAttribute="bottom" constant="30" id="zFe-ij-aFh"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="K4Y-li-FRQ" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="6Y7-Iw-C27"/>
+                <constraint firstItem="K4Y-li-FRQ" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="ZLa-u6-KQg"/>
+                <constraint firstItem="K4Y-li-FRQ" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="gZK-KN-vHq"/>
+                <constraint firstItem="K4Y-li-FRQ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="qKu-hj-LPB"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="24.5" y="51.5"/>
+        </view>
+    </objects>
+</document>

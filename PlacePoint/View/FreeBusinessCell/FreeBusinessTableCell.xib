@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="UBUNTU-MEDIUM.TTF">
+            <string>Ubuntu-Medium</string>
+        </array>
+        <array key="UBUNTU-REGULAR_0.TTF">
+            <string>Ubuntu-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="FreeBusinessTableCell" rowHeight="142" id="KGk-i7-Jjw" customClass="FreeBusinessTableCell" customModule="PlacePoint" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="353" height="146"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="353" height="145.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kNf-rg-xGh">
+                        <rect key="frame" x="18" y="7" width="317" height="134"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Htr-rT-rai">
+                                <rect key="frame" x="0.0" y="0.0" width="317" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="THE ASSEMBLY" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fbp-Ab-JDy">
+                                        <rect key="frame" x="33" y="9" width="167" height="43"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Ubuntu-Medium" family="Ubuntu" pointSize="15"/>
+                                        <color key="textColor" red="0.14117647059999999" green="0.17254901959999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="location_marker" translatesAutoresizingMaskIntoConstraints="NO" id="m3t-5w-nIo">
+                                        <rect key="frame" x="8" y="19" width="23" height="22"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BW7-eB-XRi">
+                                        <rect key="frame" x="282" y="9" width="30" height="29"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="img_nav"/>
+                                        <connections>
+                                            <action selector="btnNavigation:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="OaD-VZ-Bs6"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ajd-6b-rub">
+                                        <rect key="frame" x="244" y="9" width="30" height="29"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="img_taxi"/>
+                                        <connections>
+                                            <action selector="btnTaxi:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Uu1-NT-zDv"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QEj-E2-i36">
+                                        <rect key="frame" x="205" y="9" width="30" height="29"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="img_Phone"/>
+                                        <connections>
+                                            <action selector="btnCallAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="hX4-vm-diA"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i4r-d6-E8u">
+                                <rect key="frame" x="73" y="102" width="229" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <string key="text" base64-UTF8="YES">
+EERpc3RhbmNlA
+</string>
+                                <fontDescription key="fontDescription" name="Ubuntu-Regular" family="Ubuntu" pointSize="13"/>
+                                <color key="textColor" red="0.3921568627" green="0.3921568627" blue="0.3921568627" alpha="0.98965669010000001" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Street Address" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FrU-k3-0MV">
+                                <rect key="frame" x="73" y="64" width="232" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Ubuntu-Regular" family="Ubuntu" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mkj-UJ-CrK">
+                                <rect key="frame" x="9" y="68" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="placeholder-1" translatesAutoresizingMaskIntoConstraints="NO" id="Hpp-Kb-Zb7">
+                                        <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.85098039215686272" green="0.85098039215686272" blue="0.85098039215686272" alpha="0.63845180457746475" colorSpace="calibratedRGB"/>
+                    </view>
+                </subviews>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="btnCall" destination="QEj-E2-i36" id="OIi-D9-i7y"/>
+                <outlet property="btnNav" destination="BW7-eB-XRi" id="gCK-KJ-bAU"/>
+                <outlet property="btnTaxi" destination="Ajd-6b-rub" id="VZm-o4-bdH"/>
+                <outlet property="imgFreeCover" destination="Hpp-Kb-Zb7" id="0v1-ca-6GH"/>
+                <outlet property="lblAddress" destination="FrU-k3-0MV" id="Wet-fa-FCA"/>
+                <outlet property="lblBusinessName" destination="fbp-Ab-JDy" id="6ZP-48-jkB"/>
+                <outlet property="lblDistance" destination="i4r-d6-E8u" id="Iph-Jv-FSt"/>
+                <outlet property="viewFreeListing" destination="kNf-rg-xGh" id="5K1-FU-QjF"/>
+                <outlet property="vwImgCover" destination="mkj-UJ-CrK" id="uNv-OA-ZkE"/>
+            </connections>
+            <point key="canvasLocation" x="-111.5" y="-44"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="img_Phone" width="40" height="40"/>
+        <image name="img_nav" width="40" height="40"/>
+        <image name="img_taxi" width="40" height="40"/>
+        <image name="location_marker" width="20" height="20"/>
+        <image name="placeholder-1" width="300" height="300"/>
+    </resources>
+</document>

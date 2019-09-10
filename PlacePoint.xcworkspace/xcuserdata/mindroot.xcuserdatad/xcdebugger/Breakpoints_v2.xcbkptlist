@@ -1,0 +1,743 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlacePoint/MyFolders/AddPost/AddPostVc/Extensions/Extension+AddPostApi.swift"
+            timestampString = "566311113.881565"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "489"
+            endingLineNumber = "489"
+            landmarkName = "showAlertPostAdded(msg:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PlacePoint.AddPostVC.showAlertPostAdded(msg: Swift.String) -&gt; ()"
+                  moduleName = "PlacePoint"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Data/Abhinandan/Abhinandan_LiveProjectsLatest/placePoint/PlacePoint_Latest/PlacePoint_Phase_9.4/PlacePoint/MyFolders/AddPost/AddPostVc/Extensions/Extension+AddPostApi.swift"
+                  timestampString = "570516355.492743"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "489"
+                  endingLineNumber = "489"
+                  offsetFromSymbolStart = "160">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.UIAlertAction) -&gt; () in PlacePoint.AddPostVC.showAlertPostAdded(msg: Swift.String) -&gt; ()"
+                  moduleName = "PlacePoint"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Data/Abhinandan/Abhinandan_LiveProjectsLatest/placePoint/PlacePoint_Latest/PlacePoint_Phase_9.4/PlacePoint/MyFolders/AddPost/AddPostVc/Extensions/Extension+AddPostApi.swift"
+                  timestampString = "570516355.497515"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "491"
+                  endingLineNumber = "491"
+                  offsetFromSymbolStart = "52">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlacePoint/MyFolders/AddPost/AddPostVc/Extensions/Extension+AddPostApi.swift"
+            timestampString = "566311113.882327"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "491"
+            endingLineNumber = "491"
+            landmarkName = "showAlertPostAdded(msg:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlacePoint/MyFolders/AddPost/AddPostVc/Extensions/Extension+AddPostApi.swift"
+            timestampString = "566311113.882898"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "503"
+            endingLineNumber = "503"
+            landmarkName = "showAlertPostAdded(msg:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlacePoint/MyFolders/FeedVC/FeedLiveVC.swift"
+            timestampString = "570349690.910392"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "559"
+            endingLineNumber = "559"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.NSDictionary) -&gt; () in PlacePoint.FeedLiveVC.apiGetFeed(strLocId: Swift.String, strCatId: Swift.String) -&gt; ()"
+                  moduleName = "PlacePoint"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Data/Abhinandan/Abhinandan_LiveProjectsLatest/placePoint/PlacePoint_Latest/PlacePoint_Phase_9.4/PlacePoint/MyFolders/FeedVC/FeedLiveVC.swift"
+                  timestampString = "570516355.539112"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "560"
+                  endingLineNumber = "560"
+                  offsetFromSymbolStart = "4672">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; () in closure #1 (__C.NSDictionary) -&gt; () in PlacePoint.FeedLiveVC.apiGetFeed(strLocId: Swift.String, strCatId: Swift.String) -&gt; ()"
+                  moduleName = "PlacePoint"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Data/Abhinandan/Abhinandan_LiveProjectsLatest/placePoint/PlacePoint_Latest/PlacePoint_Phase_9.4/PlacePoint/MyFolders/FeedVC/FeedLiveVC.swift"
+                  timestampString = "570516355.544359"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "562"
+                  endingLineNumber = "562"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlacePoint/MyFolders/AddPost/AddPostVc/AddPostVC.swift"
+            timestampString = "566370158.190944"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "977"
+            endingLineNumber = "977"
+            landmarkName = "btnExpiryTimeAction()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlacePoint/MyFolders/AddPost/AddPostVc/AddPostVC.swift"
+            timestampString = "566370158.191535"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "555"
+            endingLineNumber = "555"
+            landmarkName = "btnToolBarDone(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlacePoint/MyFolders/LoginVC/LoginVC.swift"
+            timestampString = "566459893.824353"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "177"
+            endingLineNumber = "177"
+            landmarkName = "apiLogin()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlacePoint/MyFolders/AllBusinessVc/AllBusinessVC.swift"
+            timestampString = "570519188.330259"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "887"
+            endingLineNumber = "887"
+            landmarkName = "toOpenMapNavigation(index:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlacePoint/MyFolders/AllBusinessVc/AllBusinessVC.swift"
+            timestampString = "570519188.33046"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "864"
+            endingLineNumber = "864"
+            landmarkName = "toCallUser(index:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlacePoint/View/FreeBusinessCell/FreeBusinessTableCell.swift"
+            timestampString = "570515626.422202"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "180"
+            endingLineNumber = "180"
+            landmarkName = "btnTaxi(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlacePoint/MyFolders/AllBusinessVc/AllBusinessVC.swift"
+            timestampString = "570519188.330681"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "866"
+            endingLineNumber = "866"
+            landmarkName = "toCallUser(index:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PlacePoint.AllBusinessVC.toCallUser(index: Swift.Int) -&gt; ()"
+                  moduleName = "PlacePoint"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Data/Abhinandan/Abhinandan_LiveProjectsLatest/placePoint/PlacePoint_Latest/PlacePoint_Phase_9.4/PlacePoint/MyFolders/AllBusinessVc/AllBusinessVC.swift"
+                  timestampString = "570516355.610216"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "866"
+                  endingLineNumber = "866"
+                  offsetFromSymbolStart = "272">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PlacePoint.AllBusinessVC.toCallUser(index: Swift.Int) -&gt; ()"
+                  moduleName = "PlacePoint"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Data/Abhinandan/Abhinandan_LiveProjectsLatest/placePoint/PlacePoint_Latest/PlacePoint_Phase_9.4/PlacePoint/MyFolders/AllBusinessVc/AllBusinessVC.swift"
+                  timestampString = "570516355.615024"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "866"
+                  endingLineNumber = "866"
+                  offsetFromSymbolStart = "1648">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlacePoint/View/FreeBusinessCell/FreeBusinessTableCell.swift"
+            timestampString = "570515626.422857"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "184"
+            endingLineNumber = "184"
+            landmarkName = "btnTaxi(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlacePoint/MyFolders/AllBusinessVc/AllBusinessVC.swift"
+            timestampString = "570519188.330876"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "909"
+            endingLineNumber = "909"
+            landmarkName = "toOpenTaxiDetail(index:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlacePoint/MyFolders/AllBusinessVc/AllBusinessVC.swift"
+            timestampString = "570519188.331064"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "836"
+            endingLineNumber = "836"
+            landmarkName = "openMapNavigation(index:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlacePoint/MyFolders/AllBusinessVc/AllBusinessVC.swift"
+            timestampString = "570519188.331194"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "885"
+            endingLineNumber = "885"
+            landmarkName = "toOpenMapNavigation(index:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlacePoint/View/FreeBusinessCell/FreeBusinessTableCell.swift"
+            timestampString = "570515626.423362"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "174"
+            endingLineNumber = "174"
+            landmarkName = "btnNavigation(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlacePoint/View/FreeBusinessCell/FreeBusinessTableCell.swift"
+            timestampString = "570515626.423684"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "165"
+            endingLineNumber = "165"
+            landmarkName = "btnNavigation(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlacePoint/View/FreeBusinessCell/FreeBusinessTableCell.swift"
+            timestampString = "570515626.424008"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "165"
+            endingLineNumber = "165"
+            landmarkName = "btnNavigation(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlacePoint/View/FreeBusinessCell/FreeBusinessTableCell.swift"
+            timestampString = "570515626.4243259"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "169"
+            endingLineNumber = "169"
+            landmarkName = "btnNavigation(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlacePoint/View/FreeBusinessCell/FreeBusinessTableCell.swift"
+            timestampString = "570515626.424636"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "187"
+            endingLineNumber = "187"
+            landmarkName = "btnTaxi(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlacePoint/MyFolders/AllBusinessVc/AllBusinessVC.swift"
+            timestampString = "570519188.3315181"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "901"
+            endingLineNumber = "901"
+            landmarkName = "toOpenMapNavigation(index:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlacePoint/MyFolders/AllBusinessVc/AllBusinessVC.swift"
+            timestampString = "570519188.331633"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "899"
+            endingLineNumber = "899"
+            landmarkName = "toOpenMapNavigation(index:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlacePoint/MyFolders/AllBusinessVc/AllBusinessVC.swift"
+            timestampString = "570519188.331749"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "894"
+            endingLineNumber = "894"
+            landmarkName = "toOpenMapNavigation(index:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlacePoint/MyFolders/AllBusinessVc/AllBusinessVC.swift"
+            timestampString = "570519188.331884"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "890"
+            endingLineNumber = "890"
+            landmarkName = "toOpenMapNavigation(index:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlacePoint/MyFolders/MapNavigationVc/MapNavigationVC.swift"
+            timestampString = "570352671.252039"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlacePoint/Helper Classes/CommonClasses/CommonClass.swift"
+            timestampString = "570519188.3320349"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "276"
+            endingLineNumber = "276"
+            landmarkName = "getCategoryName(strCategory:array:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlacePoint/MyFolders/AllBusinessVc/AllBusinessVC.swift"
+            timestampString = "570519188.3321379"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlacePoint/MyFolders/AllBusinessVc/AllBusinessVC.swift"
+            timestampString = "570519188.332248"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlacePoint/MyFolders/AllBusinessVc/AllBusinessVC.swift"
+            timestampString = "570519188.332356"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "103"
+            endingLineNumber = "103"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlacePoint/MyFolders/AllBusinessVc/AllBusinessVC.swift"
+            timestampString = "570519188.332492"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "106"
+            endingLineNumber = "106"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlacePoint/MyFolders/AllBusinessVc/AllBusinessVC.swift"
+            timestampString = "570519188.3326"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "107"
+            endingLineNumber = "107"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlacePoint/MyFolders/AllBusinessVc/AllBusinessVC.swift"
+            timestampString = "570519188.332703"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "675"
+            endingLineNumber = "675"
+            landmarkName = "tableView(_:didSelectRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlacePoint/MyFolders/BusinessVc/BusinessVC.swift"
+            timestampString = "570515288.827949"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "268"
+            endingLineNumber = "268"
+            landmarkName = "setUpView()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlacePoint/MyFolders/BusinessVc/BusinessVC.swift"
+            timestampString = "570515288.828346"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "266"
+            endingLineNumber = "266"
+            landmarkName = "setUpView()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlacePoint/MyFolders/BusinessVc/BusinessVC.swift"
+            timestampString = "570515288.8286591"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "264"
+            endingLineNumber = "264"
+            landmarkName = "setUpView()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlacePoint/MyFolders/BusinessVc/BusinessVC.swift"
+            timestampString = "570515288.8289829"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "260"
+            endingLineNumber = "260"
+            landmarkName = "setUpView()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlacePoint/MyFolders/BusinessVc/BusinessVC.swift"
+            timestampString = "570515288.829301"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "248"
+            endingLineNumber = "248"
+            landmarkName = "setUpView()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlacePoint/MyFolders/BusinessDetailsVc/BusinessDetailVC.swift"
+            timestampString = "570515576.829019"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "284"
+            endingLineNumber = "284"
+            landmarkName = "backButtonTapped()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlacePoint/MyFolders/BusinessShowFeedVC/BuisnessShowFeedVc.swift"
+            timestampString = "570519188.333028"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
+            landmarkName = "setUpNavigation()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlacePoint/MyFolders/BusinessShowFeedVC/BuisnessShowFeedVc.swift"
+            timestampString = "570519188.334482"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "546"
+            endingLineNumber = "546"
+            landmarkName = "backButtonTapped()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

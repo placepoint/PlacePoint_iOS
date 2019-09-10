@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AddPostVC" customModule="PlacePoint" customModuleProvider="target">
+            <connections>
+                <outlet property="datePicker" destination="m3b-Mr-6D2" id="tEe-D5-fgs"/>
+                <outlet property="pickerSchedule" destination="Xzv-0w-WNN" id="QXS-Xs-cVR"/>
+                <outlet property="tblViewAddPost" destination="wV6-77-hBF" id="5rr-Ba-6cq"/>
+                <outlet property="toolBar" destination="BDA-hm-WYo" id="O0n-Cc-lD1"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="viewForAllPicker" destination="Jxm-ct-9Az" id="reT-H5-Ird"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="398" height="637"/>
+            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="wV6-77-hBF">
+                    <rect key="frame" x="0.0" y="45" width="398" height="492"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </tableView>
+                <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Jxm-ct-9Az">
+                    <rect key="frame" x="0.0" y="50" width="398" height="541"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <pickerView hidden="YES" contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xzv-0w-WNN">
+                            <rect key="frame" x="1" y="360" width="397" height="192"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <outlet property="dataSource" destination="-1" id="mMM-Eq-MJ2"/>
+                                <outlet property="delegate" destination="-1" id="nJc-6O-a19"/>
+                            </connections>
+                        </pickerView>
+                        <datePicker hidden="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="m3b-Mr-6D2">
+                            <rect key="frame" x="1" y="360" width="397" height="192"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <date key="date" timeIntervalSinceReferenceDate="554555733.09454405">
+                                <!--2018-07-29 11:15:33 +0000-->
+                            </date>
+                            <connections>
+                                <action selector="pickerDateChanged:" destination="-1" eventType="valueChanged" id="tn0-ya-lRP"/>
+                            </connections>
+                        </datePicker>
+                        <toolbar hidden="YES" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BDA-hm-WYo">
+                            <rect key="frame" x="7" y="320" width="380" height="45"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <items>
+                                <barButtonItem title="Cancel" id="3H6-bB-Bjp">
+                                    <connections>
+                                        <action selector="btnToolbarCancel:" destination="-1" id="u9q-8k-o28"/>
+                                    </connections>
+                                </barButtonItem>
+                                <barButtonItem style="plain" systemItem="flexibleSpace" id="hsE-s9-ziU"/>
+                                <barButtonItem title="Done" id="vVy-pl-e0I">
+                                    <connections>
+                                        <action selector="btnToolBarDone:" destination="-1" id="Q9c-7X-JhK"/>
+                                    </connections>
+                                </barButtonItem>
+                            </items>
+                        </toolbar>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+            </subviews>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="39" y="41.5"/>
+        </view>
+    </objects>
+</document>

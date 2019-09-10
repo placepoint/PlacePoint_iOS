@@ -1,0 +1,128 @@
+PODS:
+  - Alamofire (4.7.2)
+  - AppsFlyerFramework (4.8.10)
+  - Crashlytics (3.10.1):
+    - Fabric (~> 1.7.5)
+  - Dropdowns (2.0.0)
+  - Fabric (1.7.6)
+  - Firebase/Core (5.0.1):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 5.0.0)
+  - Firebase/CoreOnly (5.0.1):
+    - FirebaseCore (= 5.0.1)
+  - FirebaseAnalytics (5.0.0):
+    - FirebaseCore (~> 5.0)
+    - FirebaseInstanceID (~> 3.0)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - nanopb (~> 0.3)
+  - FirebaseCore (5.0.1):
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+  - FirebaseInstanceID (3.0.0):
+    - FirebaseCore (~> 5.0)
+  - Fusuma (1.2.4)
+  - GoogleMaps (2.7.0):
+    - GoogleMaps/Maps (= 2.7.0)
+  - GoogleMaps/Base (2.7.0)
+  - GoogleMaps/Maps (2.7.0):
+    - GoogleMaps/Base
+  - GooglePlaces (2.7.0):
+    - GoogleMaps/Base (= 2.7.0)
+  - GoogleToolboxForMac/Defines (2.1.4)
+  - "GoogleToolboxForMac/NSData+zlib (2.1.4)":
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - Kingfisher (4.8.0)
+  - MMDrawerController (0.5.7):
+    - MMDrawerController/Core (= 0.5.7)
+    - MMDrawerController/MMDrawerBarButtonItem (= 0.5.7)
+    - MMDrawerController/MMDrawerVisualStates (= 0.5.7)
+    - MMDrawerController/Subclass (= 0.5.7)
+  - MMDrawerController/Core (0.5.7)
+  - MMDrawerController/MMDrawerBarButtonItem (0.5.7):
+    - MMDrawerController/Core
+  - MMDrawerController/MMDrawerVisualStates (0.5.7):
+    - MMDrawerController/Core
+  - MMDrawerController/Subclass (0.5.7):
+    - MMDrawerController/Core
+  - nanopb (0.3.8):
+    - nanopb/decode (= 0.3.8)
+    - nanopb/encode (= 0.3.8)
+  - nanopb/decode (0.3.8)
+  - nanopb/encode (0.3.8)
+  - OneSignal (2.9.3)
+  - SlidingContainerViewController (0.0.1)
+  - Stripe (13.0.1)
+  - SVProgressHUD (2.2.5)
+  - UIImageCropper (1.3.2)
+  - YouTubePlayer (0.4.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.5)
+  - AppsFlyerFramework
+  - Crashlytics (~> 3.10.0)
+  - Dropdowns
+  - Fabric (~> 1.7.3)
+  - Firebase/Core
+  - Fusuma
+  - GoogleMaps
+  - GooglePlaces
+  - Kingfisher (~> 4.0)
+  - MMDrawerController (~> 0.5.7)
+  - OneSignal (< 3.0, >= 2.6.2)
+  - SlidingContainerViewController
+  - Stripe
+  - SVProgressHUD
+  - UIImageCropper
+  - YouTubePlayer
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AppsFlyerFramework
+    - Crashlytics
+    - Dropdowns
+    - Fabric
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseInstanceID
+    - Fusuma
+    - GoogleMaps
+    - GooglePlaces
+    - GoogleToolboxForMac
+    - Kingfisher
+    - MMDrawerController
+    - nanopb
+    - OneSignal
+    - SlidingContainerViewController
+    - Stripe
+    - SVProgressHUD
+    - UIImageCropper
+    - YouTubePlayer
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  AppsFlyerFramework: 481eafa4f92e3274fa8d04f10108cdad83fd532b
+  Crashlytics: aee1a064cbbf99b32efa3f056a5f458d846bc8ff
+  Dropdowns: 9dd32d9ac9cc59e56ae093b588d35477abde32d2
+  Fabric: f8d42c893bb187326a7968b62abe55c36a987a46
+  Firebase: d6861c2059d8c32d1e6dd8932e22ada346d90a3a
+  FirebaseAnalytics: 19812b49fa5f283dd6b23edf8a14b5d477029ab8
+  FirebaseCore: cafc814b2d84fc8733f09e653041cc2165332ad7
+  FirebaseInstanceID: 83e0040351565df711a5db3d8ebe5ea21aca998a
+  Fusuma: e85c394878a2e1549c67140ba7c038aff8d7581c
+  GoogleMaps: f79af95cb24d869457b1f961c93d3ce8b2f3b848
+  GooglePlaces: 3d06e6c99654545b4738ce49648745779c25f2ef
+  GoogleToolboxForMac: 91c824d21e85b31c2aae9bb011c5027c9b4e738f
+  Kingfisher: 976d828df2b24834c6a3f2fc4d82cdbd26552be1
+  MMDrawerController: 7a4cf8e25596bf2434e03ce50d22a8608ddee6a1
+  nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
+  OneSignal: a506e3bc61d2030f0757faf9bd783a9b211c6e3c
+  SlidingContainerViewController: b69a83a7b77f26a874d7d746d9a25d36cdd6958e
+  Stripe: b3c69e4a269d5ae707916a090ee54b1f6011ccd9
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  UIImageCropper: c70f73c7d21b27c147a1dc0b664e4d44d9d29b90
+  YouTubePlayer: 028451f6772f372d4759866db99824c676ac1473
+
+PODFILE CHECKSUM: 6ecb4561ca920c6dddc907326fbd7935f4754043
+
+COCOAPODS: 1.6.1

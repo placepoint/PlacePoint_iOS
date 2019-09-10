@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="UBUNTU-REGULAR_0.TTF">
+            <string>Ubuntu-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AddPostVC" customModule="PlacePoint" customModuleProvider="target">
+            <connections>
+                <outlet property="datePicker" destination="m3b-Mr-6D2" id="tEe-D5-fgs"/>
+                <outlet property="pickerSchedule" destination="Xzv-0w-WNN" id="QXS-Xs-cVR"/>
+                <outlet property="tblViewAddPost" destination="wV6-77-hBF" id="5rr-Ba-6cq"/>
+                <outlet property="toolBar" destination="BDA-hm-WYo" id="O0n-Cc-lD1"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="viewForAllPicker" destination="Jxm-ct-9Az" id="reT-H5-Ird"/>
+                <outlet property="vwFlashPostPopUP" destination="AZj-6m-ut9" id="ofg-WW-WpY"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="398" height="637"/>
+            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="wV6-77-hBF">
+                    <rect key="frame" x="0.0" y="45" width="398" height="492"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </tableView>
+                <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Jxm-ct-9Az">
+                    <rect key="frame" x="0.0" y="50" width="398" height="541"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <pickerView hidden="YES" contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xzv-0w-WNN">
+                            <rect key="frame" x="1" y="360" width="397" height="192"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <outlet property="dataSource" destination="-1" id="mMM-Eq-MJ2"/>
+                                <outlet property="delegate" destination="-1" id="nJc-6O-a19"/>
+                            </connections>
+                        </pickerView>
+                        <datePicker hidden="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="m3b-Mr-6D2">
+                            <rect key="frame" x="1" y="360" width="397" height="192"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <date key="date" timeIntervalSinceReferenceDate="554555733.09454405">
+                                <!--2018-07-29 11:15:33 +0000-->
+                            </date>
+                            <connections>
+                                <action selector="pickerDateChanged:" destination="-1" eventType="valueChanged" id="tn0-ya-lRP"/>
+                            </connections>
+                        </datePicker>
+                        <toolbar hidden="YES" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BDA-hm-WYo">
+                            <rect key="frame" x="5" y="320" width="388" height="45"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <items>
+                                <barButtonItem title="Cancel" id="3H6-bB-Bjp">
+                                    <connections>
+                                        <action selector="btnToolbarCancel:" destination="-1" id="u9q-8k-o28"/>
+                                    </connections>
+                                </barButtonItem>
+                                <barButtonItem style="plain" systemItem="flexibleSpace" id="hsE-s9-ziU"/>
+                                <barButtonItem title="Done" id="vVy-pl-e0I">
+                                    <connections>
+                                        <action selector="btnToolBarDone:" destination="-1" id="Q9c-7X-JhK"/>
+                                    </connections>
+                                </barButtonItem>
+                            </items>
+                        </toolbar>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AZj-6m-ut9">
+                    <rect key="frame" x="0.0" y="0.0" width="398" height="637"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="asH-Jt-2OT">
+                            <rect key="frame" x="35" y="174" width="328" height="168"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5Cd-fI-dcS">
+                                    <rect key="frame" x="0.0" y="126" width="328" height="1"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" red="0.62349194289999998" green="0.63656872509999995" blue="0.64432787899999999" alpha="0.39316716269841268" colorSpace="custom" customColorSpace="displayP3"/>
+                                </view>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Xdc-jl-JZB">
+                                    <rect key="frame" x="65" y="44" width="250" height="80"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="Ubuntu-Regular" family="Ubuntu" pointSize="14"/>
+                                    <state key="normal">
+                                        <color key="titleColor" red="0.20180618762969971" green="0.47021150588989258" blue="0.9656335711479187" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="btnUrlFbClick:" destination="-1" eventType="touchUpInside" id="liq-MS-Eqr"/>
+                                    </connections>
+                                </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XvN-sk-RTd">
+                                    <rect key="frame" x="14" y="8" width="301" height="113"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                    <attributedString key="attributedText">
+                                        <fragment>
+                                            <string key="content">Thanks for placing a flash deal. Your flash deal is currently awaiting approval, this normally is approved in a short space of time, if it’s urgent please contact us via the Facebook page.</string>
+                                            <attributes>
+                                                <font key="NSFont" size="15" name="Ubuntu-Regular"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                        <fragment content="https://www.facebook.com/placepoint.ireland/">
+                                            <attributes>
+                                                <color key="NSColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="15" name="Ubuntu-Regular"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                <integer key="NSUnderline" value="1"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zwj-hp-nx4">
+                                    <rect key="frame" x="32" y="126" width="264" height="41"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dal-gu-rhM">
+                                            <rect key="frame" x="0.0" y="0.0" width="263" height="41"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <state key="normal" title="ok"/>
+                                            <connections>
+                                                <action selector="btnOKClick:" destination="-1" eventType="touchUpInside" id="JFB-vG-FYu"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="20"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+            </subviews>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="38.399999999999999" y="40.929535232383813"/>
+        </view>
+    </objects>
+</document>
